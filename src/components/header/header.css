@@ -67,13 +67,20 @@ header {
   }
 }
 
+@media screen and (max-width: 1360px) {
+  header {
+    height: 150vh;
+  }
+}
+
 /* ========================== MEDIA QUERIES (SMALL DEVICES) ========================== */
 
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 190vh;
   }
 
+ 
   .header__socials,
   .scroll__down {
     display: none;
